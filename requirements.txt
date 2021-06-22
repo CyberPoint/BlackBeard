@@ -1,0 +1,14 @@
+requests==2.25.1
+psutil==5.8.0
+pylint==2.8.3
+requests==2.25.1
+bumpversion
+pandas==1.1.5
+fsspec==0.8.5
+pyinstaller==4.1
+paramiko==2.7.2
+setuptools==51.1.1
+wheel==0.36.2
+# https://stackoverflow.com/questions/64654805/how-do-you-fix-runtimeerror-package-fails-to-pass-a-sanity-check-for-numpy-an
+numpy==1.19.3
+requests_toolbelt==0.9.1
