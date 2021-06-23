@@ -1,4 +1,4 @@
-# python3-starter
+# Python 3 Starter Projet
 This repository holds a starter project for Python 3. You can use this project
 to get started on your Python problem immediately. The main Python script is 
 named:
