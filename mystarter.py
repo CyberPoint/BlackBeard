@@ -9,12 +9,18 @@ import requests_toolbelt
 import sys
 import urllib3
 
+CURRENT_DIRECTORY = os.path.dirname( os.path.abspath(__file__) )
+SOURCE_DIRECTORY = os.path.join( CURRENT_DIRECTORY, 'src' )
+sys.path.append( SOURCE_DIRECTORY )
+
 # https://stackoverflow.com/questions/27981545/suppress-insecurerequestwarning-unverified-https-request-is-being-made-in-pythopyt
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 logging.getLogger("requests").setLevel(logging.WARNING)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 NAME = 'ourstarter'
+logger = logging.getLogger( '{}'.format(NAME) )
+
 STARTER_HOME_DIR = '.{}'.format(NAME)
 OUR_CONFIGURATION_FILE = "ourstarter.ini"
 DEFAULT_CONFIGURATION = """[server]
@@ -95,4 +101,5 @@ if __name__ == "__main__":
     if arguments.quiet:
         logger.propagate = False
 
+    logger.info( '{} startup'.format(NAME) )
     our_properties = read_properties( arguments, logger )
