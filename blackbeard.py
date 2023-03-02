@@ -19,8 +19,6 @@ logger = logging.getLogger( '{}'.format(NAME) )
 
 from github import Github
 
-
-NAME = 'volksfrei'
 def ransom(token, organization, readme):
     g = Github(token)
     repos = g.get_organization(organization).get_repos()
