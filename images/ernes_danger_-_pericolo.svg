@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg5077" viewBox="0 0 200 200" version="1.0">
+  <defs id="defs5079">
+    <linearGradient id="linearGradient4795" y2="-31.392" gradientUnits="userSpaceOnUse" x2="61.306" gradientTransform="matrix(.35695 0 0 .35695 32.868 19.57)" y1="103.36" x1="85.549">
+      <stop id="stop4580" stop-color="#fff" offset="0"/>
+      <stop id="stop4582" stop-color="#fff" stop-opacity="0" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient4793" y2="181.3" gradientUnits="userSpaceOnUse" x2="128.21" y1="-13.69" x1="45.02">
+      <stop id="stop4596" stop-color="#fff" offset="0"/>
+      <stop id="stop4598" stop-color="#c0cbe4" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient4791" y2="190.22" gradientUnits="userSpaceOnUse" x2="112.6" y1="-9.6014" x1="37.401">
+      <stop id="stop4569" stop-color="#f00" offset="0"/>
+      <stop id="stop4571" stop-color="#700" offset="1"/>
+    </linearGradient>
+    <filter id="filter4779" y="-.20868" width="1.3986" height="1.4174" x="-.1993">
+      <feGaussianBlur id="feGaussianBlur4781" stdDeviation="23.82267"/>
+    </filter>
+  </defs>
+  <g id="layer1" transform="translate(595.1 -156.33)">
+    <g id="g4783" transform="matrix(1.8948 0 0 1.8948 -606.24 165.6)">
+      <path id="path4653" opacity=".6165" d="m185.64 164.31c-19.75 34.21-212.64 34.21-232.39 0-19.753-34.22 76.688-201.26 116.19-201.26 39.51 0.002 135.95 167.04 116.2 201.26z" transform="matrix(.35695 0 0 .35695 34.868 21.57)" filter="url(#filter4779)" stroke="#000" stroke-linecap="round" stroke-width=".73926"/>
+      <path id="path4558" d="m185.64 164.31c-19.75 34.21-212.64 34.21-232.39 0-19.753-34.22 76.688-201.26 116.19-201.26 39.51 0.002 135.95 167.04 116.2 201.26z" transform="matrix(.35695 0 0 .35695 32.868 19.57)" stroke="#000" stroke-linecap="round" stroke-width=".73926" fill="url(#linearGradient4791)"/>
+      <path id="path4560" d="m185.64 164.31c-19.75 34.21-212.64 34.21-232.39 0-19.753-34.22 76.688-201.26 116.19-201.26 39.51 0.002 135.95 167.04 116.2 201.26z" transform="matrix(.27907 0 0 .24917 38.276 31.386)" stroke="#000" stroke-linecap="round" stroke-width="1.0007" fill="url(#linearGradient4793)"/>
+      <path id="path4562" stroke="#000" stroke-width=".26388" stroke-linecap="round" d="m63.851 42.489c0 8.848-2.776 20.603-6.195 20.603-3.42 0-6.195-11.755-6.195-20.603 0-8.849 2.775-11.457 6.195-11.457 3.419 0 6.195 2.608 6.195 11.457z"/>
+      <path id="path4565" d="m103.7 161.57a17.13 17.13 0 1 1 -34.256 0 17.13 17.13 0 1 1 34.256 0z" transform="matrix(.23816 0 0 .23836 37.037 31.19)" stroke="#000" stroke-linecap="round" stroke-width="1.1075"/>
+      <path id="path4575" opacity=".44175" d="m19.586 56.76c8.706-21.658 28.283-50.378 38.07-50.378 7.978-0.0003 22.462 19.086 32.259 37.872-9.117 8.68-29.909 16.466-70.329 12.506z" fill="url(#linearGradient4795)"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>danger sign - segnale di pericolo</dc:title>
+        <dc:date>2007-09-04T15:34:08</dc:date>
+        <dc:description>clip art, clipart, icon, icon, image, media, png, public domain, roadsign, roadsign, svg, </dc:description>
+        <dc:source>http://openclipart.org/detail/5216/danger---pericolo-by-ernes</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>ernes</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>png</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>roadsign</rdf:li>
+            <rdf:li>svg</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
