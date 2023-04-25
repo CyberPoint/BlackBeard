@@ -1,6 +1,7 @@
 PROJECT_NAME = blackbeard
 VIRTUAL_ENV = virtualenv
 PYINSTALLER = pyinstaller
+PYVERSION = 3.10
 ifeq ($(OS),Windows_NT)
 RM := rd /q /s
 PYTHON := python
@@ -11,8 +12,8 @@ UNAME_S := $(shell uname -s)
 RM := /bin/rm -rf 	
 PYTHON := ./$(VIRTUAL_ENV)/bin/python3
 PIP := ./$(VIRTUAL_ENV)/bin/pip3
-VENV := python3.10 -m venv
-LOCAL_PIP := pip3.10
+VENV := python$(PYVERSION) -m venv
+LOCAL_PIP := pip$(PYVERSION)
 endif
 
 .PHONY: virtual install build-requirements black isort flake8
@@ -22,8 +23,8 @@ all: package
 develop:
 	sudo apt install software-properties-common -y
 	sudo add-apt-repository ppa:deadsnakes/ppa
-	sudo apt-get -y install python3.10 python3-pip python3.10-venv python3-dev python3-cairo-dev \
-							libsqlite3-dev
+	sudo apt-get -y install python$(PYVERSION) python3-pip python$(PYVERSION)-venv python3-dev python3-cairo-dev \
+							libsqlite3-dev libgit2-dev
 	$(VENV) $(VIRTUAL_ENV)
 	$(PIP) install -Ur requirements.txt
 	$(LOCAL_PIP) install -r requirements.txt
